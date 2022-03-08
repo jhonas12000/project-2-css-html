@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    font-family: "Gill Sans", sans-serif;
+    font-size: 18px;
+    
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+    margin-top:30px;
+    display: grid;
+    background-image: url('images/background-color.jpeg');
+}
+.wraper {
+    background-image: url('images/background-color.jpeg');
+    border: 2px solid gray;
+    
+}
