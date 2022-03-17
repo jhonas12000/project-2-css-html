@@ -1,0 +1,25 @@
+@media(min-width: 769px) {
+
+    nav {
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .container {
+        flex-direction: row;
+        gap: 35px;
+    }
+    .box {
+        width: 40%;
+        height: 500px;
+        margin-bottom: 5px;
+        padding: 10px;
+      
+    }
+    
+    form.search input[type=text] {
+        width: 35%;
+      }
+      
+  }

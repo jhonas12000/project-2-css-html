@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    font-family: "Gill Sans", sans-serif;
+    font-size: 18px;  
+}
+.nav {
+    justify-content: space-between;
+    margin-top: 30px;
+}
+#author {
+    font-style: italic;
+    font-family: Cursive, Sans-serif;
+    font-size: 20px;;
+}
+.container {
+    background-image: url('images/background-color.jpeg');
+    border: 2px solid gray;
+}
+
+
+.content {
+    width: 60%;
+    margin: auto;
+    margin-top:30px;
+    display: grid;
+}
+
+figcaption{
+    text-align: center;
+    font-style: italic;
+    font-size: 14px;
+}
+

@@ -4,8 +4,7 @@
 
 body {
     font-family: "Gill Sans", sans-serif;
-    font-size: 18px;
-    
+    font-size: 18px;   
 }
 
 .container {
@@ -15,7 +14,7 @@ body {
     display: grid;
     background-image: url('images/background-color.jpeg');
 }
-.wraper {
+.container {
     background-image: url('images/background-color.jpeg');
     border: 2px solid gray;
     
