@@ -1,8 +1,8 @@
-@import './css/sm-viewport.css';
-@import './css/md-viewport.css';
-@import './css/lg-viewport.css';
-@import './css/post1.css';
-@import './css/post2.css';
+@import './sm-viewport.css';
+@import './md-viewport.css';
+@import './lg-viewport.css';
+@import './post1.css';
+@import './post2.css';
 
 * {
     box-sizing: border-box;
@@ -85,7 +85,8 @@ nav.header input[type=text] {
     border: 1px;
     width: 25%;
     margin-left: 50%;
-    font-size: 18px;
+    font-size: 16px;
+    box-shadow: 1px 1px 1px 1px #494646;
   }
 div.header h1{
     font-size: 40px;
@@ -109,6 +110,8 @@ nav.header button {
   
   nav.header input:hover {
     background: lightgray;
+    
+    border: 1px solid lightgray;
   }
 
   nav.header::after {
